@@ -9,9 +9,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataTypes", "DataTypes\Data
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UserDataTypes", "UserDataTypes\UserDataTypes.vcxproj", "{9A38F142-93EE-4234-A39B-B63D28DC4FFB}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Containers", "Containers\Containers.vcxproj", "{30D07310-B987-415C-A8B5-830EBF2BF22D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Containerstut", "Containers\Containers.vcxproj", "{30D07310-B987-415C-A8B5-830EBF2BF22D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GuessingGameConversion", "GuessingGameConversion\GuessingGameConversion.vcxproj", "{BE9B0033-971A-4056-92BA-E1976A023665}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Containers1", "Containers1\Containers1.vcxproj", "{88EBA905-5F22-4648-A27E-E0E114E2B241}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,14 @@ Global
 		{BE9B0033-971A-4056-92BA-E1976A023665}.Release|x64.Build.0 = Release|x64
 		{BE9B0033-971A-4056-92BA-E1976A023665}.Release|x86.ActiveCfg = Release|Win32
 		{BE9B0033-971A-4056-92BA-E1976A023665}.Release|x86.Build.0 = Release|Win32
+		{88EBA905-5F22-4648-A27E-E0E114E2B241}.Debug|x64.ActiveCfg = Debug|x64
+		{88EBA905-5F22-4648-A27E-E0E114E2B241}.Debug|x64.Build.0 = Debug|x64
+		{88EBA905-5F22-4648-A27E-E0E114E2B241}.Debug|x86.ActiveCfg = Debug|Win32
+		{88EBA905-5F22-4648-A27E-E0E114E2B241}.Debug|x86.Build.0 = Debug|Win32
+		{88EBA905-5F22-4648-A27E-E0E114E2B241}.Release|x64.ActiveCfg = Release|x64
+		{88EBA905-5F22-4648-A27E-E0E114E2B241}.Release|x64.Build.0 = Release|x64
+		{88EBA905-5F22-4648-A27E-E0E114E2B241}.Release|x86.ActiveCfg = Release|Win32
+		{88EBA905-5F22-4648-A27E-E0E114E2B241}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
