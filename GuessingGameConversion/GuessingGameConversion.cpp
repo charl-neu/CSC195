@@ -41,12 +41,12 @@ int main() {
         break;
     }
     int randnum = rand() % difficulty + 1;
-    cout << "I have chosen a number between 1 and " + to_string(difficulty) + "\nGuess what number it is." << endl;
+    cout << "\nI have chosen a number between 1 and " + to_string(difficulty) + "\nGuess what number it is." << endl;
     int i = 1;
     int guess = 0;
     while (i < 6)
     {
-        cout << "It is guess number " + to_string(i) << endl;
+        cout << "\nIt is guess number " + to_string(i) << endl;
         try
         {
             cin >> guess;
@@ -56,28 +56,28 @@ int main() {
             }
             else if (guess > randnum)
             {
-                cout << "Too high! Try again!" << endl;
+                cout << "\nToo high! Try again!" << endl;
             }
             else if (guess < randnum)
             {
-                cout << "Too low! Try again" << endl;
+                cout << "\nToo low! Try again" << endl;
             }
             else
             {
-                cout << "You won! Congratulations!" << endl;
+                cout << "\nYou won! Congratulations!" << endl;
                 return 0;
             }
             i += 1;
             cin.clear();
         }
         catch (...) {
-            cout << "That is not a valid number." << endl;
+            cout << "\nThat is not a valid number." << endl;
             cin.clear();
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
         }
     }
 
-    cout << "You are out of guesses! Game over!" << endl;
+    cout << "\n\nYou are out of guesses! Game over!" << endl;
 
 
 }
