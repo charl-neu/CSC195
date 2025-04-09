@@ -14,12 +14,10 @@ void arrayf()
     {
         cout << a[i] << endl; //print the string at the current index of a
     }
-
 }
 
 void vectorf()
 {
-    //vector
     vector<int> vec = { 1,2,3,4,5 }; //define vector
     vec.push_back(6); //add 6 to end
     vec.push_back(7); //add 7 to end
@@ -33,8 +31,6 @@ void vectorf()
 
 void listf()
 {
-
-    //list
     list<string> lst = { "Apple", "Banana", "Grape" }; //define list
     lst.push_back("Grapefruit"); //add element to end
     lst.push_front("Gooseberry"); //add element to beginning
@@ -49,7 +45,6 @@ void listf()
 
 void mapf()
 {
-    //map
     map<string, int> m; //define map
     m["Grapes"] = 16; //add map element
     m["Pears"] = 23; //add map element
