@@ -15,8 +15,13 @@ public:
 		cout << "Student constructor\n";
 	}
 
+	void Read() override;
+	void Write() override;
+
 	void Setposition(string job) { position = job; }
 	string Getposition() { return position; }
+
+	Type GetType() override { return Type::TEACHER; }
 
 private:
 	string position;

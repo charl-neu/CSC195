@@ -1,22 +1,27 @@
 #pragma once
 #include "Header.h"
 
-class Teacher : public Human
+class Student : public Human
 {
 public:
-	Teacher()
+	Student()
 	{
 		cout << "Student constructor\n";
 	}
-	Teacher(string name, age_t age, float gpa) :
+	Student(string name, age_t age, float gpa) :
 		Human(name, age),
 		m_gpa {gpa}
 	{
 		cout << "Student constructor\n";
 	}
 
+	void Read() override;
+	void Write() override;
+
 	void SetGPA(float gpa) { m_gpa = gpa; }
 	float GetGPA() { return m_gpa; }
+
+	Type GetType() override { return Type::STUDENT; }
 
 private:
 	float m_gpa = 4.0f;
