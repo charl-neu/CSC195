@@ -11,5 +11,5 @@ public:
     Shape() {}
     ~Shape() {}
 
-    virtual float Area();
+    virtual float Area() = 0;
 };
